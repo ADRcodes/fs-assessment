@@ -1,0 +1,14 @@
+@import "../../styles/partials/mixins";
+
+.edit-row-input__name {
+  @include column;
+  border: 0;
+  border-radius: 10px;
+  padding: 3px 10px;
+}
+.edit-row-input__email {
+  @include column2;
+  border: 0;
+  border-radius: 10px;
+  padding: 3px 10px;
+}

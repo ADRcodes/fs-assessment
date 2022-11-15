@@ -1,0 +1,36 @@
+@use "variables" as *;
+
+@mixin tablet {
+  @media (min-width: $tablet-breakpoint) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $desktop-breakpoint) {
+    @content;
+  }
+}
+
+@mixin column {
+  width: 100px;
+  background-color: aliceblue;
+  padding: 5px;
+  text-align: center;
+}
+
+@mixin column2 {
+  width: 300px;
+  background-color: aliceblue;
+  padding: 5px;
+  text-align: center;
+}
+
+@mixin button {
+  width: 50px;
+  background-color: #0a0a23;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 2px;
+}

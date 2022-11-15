@@ -1,0 +1,17 @@
+@import "../../styles/partials/mixins";
+
+.read-row__name {
+  @include column;
+}
+.read-row__email {
+  @include column2;
+}
+.read-row__date {
+  @include column2;
+}
+.read-row__actions {
+  @include column;
+}
+.read-row__button {
+  @include button;
+}
